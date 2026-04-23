@@ -6,7 +6,7 @@ An interactive 3D city dashboard for downtown Calgary featuring real building da
 
 ## 🌐 Live Demo
 
-> **Hosted URL:** _[Add your hosted link here after deployment]_
+> **Hosted URL:** https://frontend-eosin-six-49.vercel.app/
 
 ---
 
