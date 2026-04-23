@@ -59,7 +59,7 @@ def fetch_osm_buildings():
                 mirror,
                 data={"data": query},
                 headers=headers,
-                timeout=30
+                timeout=60
             )
             if response.status_code == 200:
                 data = response.json()
