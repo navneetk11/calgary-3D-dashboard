@@ -7,7 +7,7 @@ OVERPASS_MIRRORS = [
     "https://overpass.kumi.systems/api/interpreter",
 ]
 
-BBOX = "51.042,-114.075,51.055,-114.055"
+BBOX = "51.044,-114.073,51.052,-114.058"
 
 # Calgary Open Data - correct working endpoint
 CALGARY_ASSESSMENT_URL = (

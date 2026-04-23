@@ -8,8 +8,16 @@ from llm import parse_query_with_llm
 
 app = Flask(__name__)
 CORS(app)
+import threading
 
+def _warm_cache():
+    with app.app_context():
+        get_buildings()
+
+# Pre-fetch buildings in background when server starts
+threading.Thread(target=_warm_cache, daemon=True).start()
 # Cache buildings so we don't re-fetch every request
+
 _buildings_cache = None
 
 def get_buildings():
