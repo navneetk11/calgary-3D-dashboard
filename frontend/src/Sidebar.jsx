@@ -110,7 +110,7 @@ export default function Sidebar({ buildings, onHighlight, activeFilter, setActiv
 
   async function handleDelete(projectId, projectName) {
     try {
-      await fetch(`http://localhost:5000/api/projects/${projectId}`, { method: "DELETE" });
+      await fetch(`https://calgary-3d-dashboard-backend.onrender.com/api/projects/${projectId}`, { method: "DELETE" });
       showToast(`"${projectName}" deleted`, "info");
       const projs = await loadProjects(user.user_id);
       setProjects(projs);

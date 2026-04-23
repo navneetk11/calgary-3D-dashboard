@@ -212,7 +212,8 @@ See `UML_diagram.png` in the root of the project for:
 - Sequence diagram showing the LLM query flow
 
 ---
-## ⚡ Alternative Approaches Taken
+
+##  Alternative Approaches Taken
 
 As noted in the brief: *"If an alternative approach is taken, provide explanation and include it in UML."*
 
@@ -252,6 +253,7 @@ This ensures queries always return results instantly even when the LLM API is un
 3. `https://overpass.kumi.systems/api/interpreter`
 
 Plus a final fallback of 60 procedurally-generated Calgary sample buildings if all mirrors fail.
+
 ## ⚠️ Known Limitations
 
 - **Assessed values are simulated** — Calgary's Open Data API (`data.calgary.ca`) requires an application token registration that was not completed. Values are generated using `height × $15,000 + random variance`, which reflects realistic downtown Calgary property patterns.
