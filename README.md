@@ -262,6 +262,4 @@ Plus a final fallback of 60 procedurally-generated Calgary sample buildings if a
 
 ---
 
-## 📬 Contact
 
-Built for MASIV 2025 Intern Test.
