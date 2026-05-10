@@ -1,4 +1,4 @@
-# 🏙️ Calgary 3D Urban Dashboard
+# 🏙️ UrbanViz AI- 3D Urban Intelligence Dashboard
 
 An interactive 3D city dashboard for downtown Calgary featuring real building data, AI-powered natural language querying, and project persistence.
 
